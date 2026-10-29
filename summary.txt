@@ -1,0 +1,79 @@
+N runs 5247 completed 4883.0 acceptable 2704.0 stopped 364
+Transitions 99 reverse 0
+BOUNDARY 0.2 0.5 [{'m': 0.2, 'l': 0.5, 'lo': 7.71875, 'hi': 7.72265625, 'left_acceptable': 0, 'right_acceptable': 1, 'phi_lo_deg': 15.001628075564556, 'phi_hi_deg': 14.982213658147893}]
+BOUNDARY 0.2 1.75 [{'m': 0.2, 'l': 1.75, 'lo': 8.73828125, 'hi': 8.7421875, 'left_acceptable': 0, 'right_acceptable': 1, 'phi_lo_deg': 15.006994435590057, 'phi_hi_deg': 14.990978197046429}]
+BOUNDARY 0.2 3.0 [{'m': 0.2, 'l': 3.0, 'lo': 9.0234375, 'hi': 9.02734375, 'left_acceptable': 0, 'right_acceptable': 1, 'phi_lo_deg': 15.014612078079777, 'phi_hi_deg': 14.999855856131902}]
+BOUNDARY 0.5 0.5 [{'m': 0.5, 'l': 0.5, 'lo': 7.48828125, 'hi': 7.4921875, 'left_acceptable': 0, 'right_acceptable': 1, 'phi_lo_deg': 15.0101532685215, 'phi_hi_deg': 14.990176817909424}]
+BOUNDARY 0.5 1.75 [{'m': 0.5, 'l': 1.75, 'lo': 8.4765625, 'hi': 8.48046875, 'left_acceptable': 0, 'right_acceptable': 1, 'phi_lo_deg': 15.01034942397688, 'phi_hi_deg': 14.993839141520729}]
+BOUNDARY 0.5 3.0 [{'m': 0.5, 'l': 3.0, 'lo': 8.7578125, 'hi': 8.76171875, 'left_acceptable': 0, 'right_acceptable': 1, 'phi_lo_deg': 15.00352403391105, 'phi_hi_deg': 14.988379851705242}]
+BOUNDARY 1.0 0.5 [{'m': 1.0, 'l': 0.5, 'lo': 7.36328125, 'hi': 7.3671875, 'left_acceptable': 0, 'right_acceptable': 1, 'phi_lo_deg': 15.01401689731813, 'phi_hi_deg': 14.999414299685055}]
+BOUNDARY 1.0 1.75 [{'m': 1.0, 'l': 1.75, 'lo': 8.12890625, 'hi': 8.1328125, 'left_acceptable': 0, 'right_acceptable': 1, 'phi_lo_deg': 15.003288479524485, 'phi_hi_deg': 14.986178967124676}]
+BOUNDARY 1.0 3.0 [{'m': 1.0, 'l': 3.0, 'lo': 8.40234375, 'hi': 8.40625, 'left_acceptable': 0, 'right_acceptable': 1, 'phi_lo_deg': 15.012038064004935, 'phi_hi_deg': 14.996368071298832}]
+BOUNDARY peak max change deg 0.00024143432595798254
+BOUNDARY classification differences 0
+BOUNDARY accepted metric Tc_min range 1.9465829513229125 9.799791222740255
+BOUNDARY accepted metric z_max range 0.003998404874990197 0.014101238343530649
+BOUNDARY accepted metric pos_err range 0.0013964692631278535 0.01866065742530972
+BOUNDARY accepted metric speed range 0.0011346976172058288 0.03154232888075175
+BOUNDARY accepted metric phi_peak range 0.26148347747002015 0.2617980264284696
+BOUNDARY saturation 0.0
+NOMINAL 0.5 7.0 peak 17.802358610916116 res 4.937201349301718 ok 0.0
+NOMINAL 0.5 7.5 peak 14.950371842755192 res 5.839947737957351 ok 1.0
+NOMINAL 0.5 8.0 peak 12.664741580795525 res 4.128981966632529 ok 1.0
+NOMINAL 0.5 8.25 peak 11.977949766509878 res 3.2833771084189953 ok 1.0
+NOMINAL 0.5 8.5 peak 11.343134040416274 res 3.548220238553802 ok 1.0
+NOMINAL 0.5 8.75 peak 10.743557826350127 res 3.76553480106219 ok 1.0
+NOMINAL 0.5 9.0 peak 10.177901687017561 res 3.406713282340393 ok 1.0
+NOMINAL 0.5 9.5 peak 9.143819566033685 res 2.299678350737537 ok 1.0
+NOMINAL 0.5 10.0 peak 8.229085080246886 res 2.553411103783683 ok 1.0
+NOMINAL 0.5 12.0 peak 5.519158579583602 res 1.2689963787735445 ok 1.0
+NOMINAL 0.5 15.0 peak 3.304782344948785 res 0.7335056179454623 ok 1.0
+LINEAR 0.5 unsat >5 times [3.0, 3.25, 3.5, 3.75, 4.0, 4.25, 4.5, 4.75, 5.0, 5.25]
+LINEAR 0.5 sat times [2.0, 2.25, 2.5, 2.75]
+LINEAR SAMPLE {'l': 0.5, 'Tm': 4.0, 'nonlinear_deg': 61.51477018907741, 'linear_deg': 72.21304599770373, 'abs_error_deg': 10.69827580862633, 'relative_percent': 17.39139360472799, 'completed': 1.0, 'saturated': 0.0}
+LINEAR SAMPLE {'l': 0.5, 'Tm': 6.0, 'nonlinear_deg': 25.97312244667162, 'linear_deg': 26.854707429618497, 'abs_error_deg': 0.8815849829468779, 'relative_percent': 3.394220255023094, 'completed': 1.0, 'saturated': 0.0}
+LINEAR SAMPLE {'l': 0.5, 'Tm': 8.0, 'nonlinear_deg': 12.664741580795525, 'linear_deg': 12.808917228057162, 'abs_error_deg': 0.14417564726163673, 'relative_percent': 1.1384018090054107, 'completed': 1.0, 'saturated': 0.0}
+LINEAR SAMPLE {'l': 0.5, 'Tm': 10.0, 'nonlinear_deg': 8.229085080246886, 'linear_deg': 8.279013537965533, 'abs_error_deg': 0.049928457718646346, 'relative_percent': 0.6067315774689792, 'completed': 1.0, 'saturated': 0.0}
+LINEAR SAMPLE {'l': 0.5, 'Tm': 15.0, 'nonlinear_deg': 3.304782344948785, 'linear_deg': 3.308260368687546, 'abs_error_deg': 0.003478023738760941, 'relative_percent': 0.10524214231769145, 'completed': 1.0, 'saturated': 0.0}
+NOMINAL 1.75 7.0 peak 23.383106311209183 res 9.406638390010785 ok 0.0
+NOMINAL 1.75 7.5 peak 19.99345367412332 res 8.579465598099768 ok 0.0
+NOMINAL 1.75 8.0 peak 17.211404936693636 res 7.159438777324347 ok 0.0
+NOMINAL 1.75 8.25 peak 16.00766532584016 res 6.343339399642861 ok 0.0
+NOMINAL 1.75 8.5 peak 14.911776597252123 res 5.594621075229031 ok 1.0
+NOMINAL 1.75 8.75 peak 13.91176690276337 res 5.000068677054019 ok 1.0
+NOMINAL 1.75 9.0 peak 12.997751209252609 res 4.587419775098213 ok 1.0
+NOMINAL 1.75 9.5 peak 11.393601455308206 res 4.112349833623951 ok 1.0
+NOMINAL 1.75 10.0 peak 10.04035185240438 res 3.679617748681883 ok 1.0
+NOMINAL 1.75 12.0 peak 6.340723726111824 res 2.100549595830399 ok 1.0
+NOMINAL 1.75 15.0 peak 3.548411973882904 res 1.0816808619546572 ok 1.0
+LINEAR 1.75 unsat >5 times [3.25, 3.5, 3.75, 4.0, 4.25, 4.5, 4.75, 5.0, 5.25, 5.5, 5.75]
+LINEAR 1.75 sat times [3.0]
+LINEAR SAMPLE {'l': 1.75, 'Tm': 4.0, 'nonlinear_deg': 69.3131525850708, 'linear_deg': 86.43754323797691, 'abs_error_deg': 17.12439065290612, 'relative_percent': 24.70583145368936, 'completed': 1.0, 'saturated': 0.0}
+LINEAR SAMPLE {'l': 1.75, 'Tm': 6.0, 'nonlinear_deg': 32.67322407127628, 'linear_deg': 34.08490603030868, 'abs_error_deg': 1.4116819590323992, 'relative_percent': 4.32060807942562, 'completed': 1.0, 'saturated': 0.0}
+LINEAR SAMPLE {'l': 1.75, 'Tm': 8.0, 'nonlinear_deg': 17.211404936693636, 'linear_deg': 17.44566586158743, 'abs_error_deg': 0.23426092489379238, 'relative_percent': 1.3610796199115784, 'completed': 1.0, 'saturated': 0.0}
+LINEAR SAMPLE {'l': 1.75, 'Tm': 10.0, 'nonlinear_deg': 10.04035185240438, 'linear_deg': 10.09125378465174, 'abs_error_deg': 0.0509019322473594, 'relative_percent': 0.5069735901254281, 'completed': 1.0, 'saturated': 0.0}
+LINEAR SAMPLE {'l': 1.75, 'Tm': 15.0, 'nonlinear_deg': 3.548411973882904, 'linear_deg': 3.551031644376121, 'abs_error_deg': 0.002619670493217083, 'relative_percent': 0.07382655995128064, 'completed': 1.0, 'saturated': 0.0}
+NOMINAL 3.0 7.0 peak 24.458767481198546 res 12.713938753096963 ok 0.0
+NOMINAL 3.0 7.5 peak 21.13046357178296 res 10.878497450185415 ok 0.0
+NOMINAL 3.0 8.0 peak 18.36342221056707 res 8.709944126996536 ok 0.0
+NOMINAL 3.0 8.25 peak 17.15524685280783 res 7.680174559318993 ok 0.0
+NOMINAL 3.0 8.5 peak 16.048983583751145 res 6.774387926711458 ok 0.0
+NOMINAL 3.0 8.75 peak 15.033853210840531 res 6.034623468999444 ok 0.0
+NOMINAL 3.0 9.0 peak 14.100932780400239 res 5.471648445444588 ok 1.0
+NOMINAL 3.0 9.5 peak 12.45170932161272 res 4.768215921994997 ok 1.0
+NOMINAL 3.0 10.0 peak 11.047300138708078 res 4.3243556598965265 ok 1.0
+NOMINAL 3.0 12.0 peak 7.1342080416941 res 2.480962525494545 ok 1.0
+NOMINAL 3.0 15.0 peak 4.088798317468477 res 1.2985331478963504 ok 1.0
+LINEAR 3.0 unsat >5 times [3.75, 4.0, 4.25, 4.5, 4.75, 5.0, 5.25, 5.5]
+LINEAR 3.0 sat times []
+LINEAR SAMPLE {'l': 3.0, 'Tm': 4.0, 'nonlinear_deg': 92.89825679990516, 'linear_deg': 117.65301771079541, 'abs_error_deg': 24.754760910890244, 'relative_percent': 26.647174837962638, 'completed': 1.0, 'saturated': 0.0}
+LINEAR SAMPLE {'l': 3.0, 'Tm': 6.0, 'nonlinear_deg': 33.391657983202805, 'linear_deg': 34.73361182925685, 'abs_error_deg': 1.3419538460540448, 'relative_percent': 4.018829633224848, 'completed': 1.0, 'saturated': 0.0}
+LINEAR SAMPLE {'l': 3.0, 'Tm': 8.0, 'nonlinear_deg': 18.36342221056707, 'linear_deg': 18.621574814640866, 'abs_error_deg': 0.25815260407379903, 'relative_percent': 1.4057979014676656, 'completed': 1.0, 'saturated': 0.0}
+LINEAR SAMPLE {'l': 3.0, 'Tm': 10.0, 'nonlinear_deg': 11.047300138708078, 'linear_deg': 11.10930145000032, 'abs_error_deg': 0.06200131129224262, 'relative_percent': 0.5612349670395879, 'completed': 1.0, 'saturated': 0.0}
+LINEAR SAMPLE {'l': 3.0, 'Tm': 15.0, 'nonlinear_deg': 4.088798317468477, 'linear_deg': 4.092495364589908, 'abs_error_deg': 0.003697047121430876, 'relative_percent': 0.0904189161308365, 'completed': 1.0, 'saturated': 0.0}
+CORNERS max change 0.019008036973179668 class mismatches 0
+WINDOW 0.5 7.5 peak/res diff deg 0.0 0.0 ok 1.0 1.0
+WINDOW 1.75 8.5 peak/res diff deg 0.0 0.0 ok 1.0 1.0
+WINDOW 3.0 9.0 peak/res diff deg 0.0 0.0 ok 1.0 1.0
+WINDOW 1.5 10.0 peak/res diff deg 0.0 0.0 ok 1.0 1.0
+SWEEP runtime median 0.2218886800000064 sum 1148.7010322709966

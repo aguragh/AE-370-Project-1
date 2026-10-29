@@ -1,0 +1,26 @@
+{
+  "rhs_checks": [
+    {
+      "perturbation": 0.01,
+      "rhs_error": 0.0003882935274159838
+    },
+    {
+      "perturbation": 0.001,
+      "rhs_error": 3.812934377463162e-06
+    },
+    {
+      "perturbation": 0.0001,
+      "rhs_error": 3.8059211256505354e-08
+    }
+  ],
+  "trajectory_checks": [
+    {
+      "D": 0.2,
+      "swing_error_rad": 1.2512580177710675e-09
+    },
+    {
+      "D": 0.02,
+      "swing_error_rad": 1.2512592145134255e-12
+    }
+  ]
+}

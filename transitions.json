@@ -1,0 +1,992 @@
+[
+  {
+    "m": 0.2,
+    "l": 0.5,
+    "lo": 7.71875,
+    "hi": 7.72265625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.001628075564556,
+    "phi_hi_deg": 14.982213658147893
+  },
+  {
+    "m": 0.2,
+    "l": 0.75,
+    "lo": 8.08984375,
+    "hi": 8.09375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.006311142009205,
+    "phi_hi_deg": 14.98809345233962
+  },
+  {
+    "m": 0.2,
+    "l": 1.0,
+    "lo": 8.33203125,
+    "hi": 8.3359375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.006853812918408,
+    "phi_hi_deg": 14.989485342847033
+  },
+  {
+    "m": 0.2,
+    "l": 1.25,
+    "lo": 8.50390625,
+    "hi": 8.5078125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.012860071729891,
+    "phi_hi_deg": 14.99602496062978
+  },
+  {
+    "m": 0.2,
+    "l": 1.5,
+    "lo": 8.63671875,
+    "hi": 8.640625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.00407278493358,
+    "phi_hi_deg": 14.987714352379575
+  },
+  {
+    "m": 0.2,
+    "l": 1.75,
+    "lo": 8.73828125,
+    "hi": 8.7421875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.006994435590057,
+    "phi_hi_deg": 14.990978197046429
+  },
+  {
+    "m": 0.2,
+    "l": 2.0,
+    "lo": 8.8203125,
+    "hi": 8.82421875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.006449885774183,
+    "phi_hi_deg": 14.990744371666942
+  },
+  {
+    "m": 0.2,
+    "l": 2.25,
+    "lo": 8.88671875,
+    "hi": 8.890625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.007507279581626,
+    "phi_hi_deg": 14.992089352427204
+  },
+  {
+    "m": 0.2,
+    "l": 2.5,
+    "lo": 8.94140625,
+    "hi": 8.9453125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.008471771068937,
+    "phi_hi_deg": 14.993335023900503
+  },
+  {
+    "m": 0.2,
+    "l": 2.75,
+    "lo": 8.98828125,
+    "hi": 8.9921875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.0036500557076,
+    "phi_hi_deg": 14.988722685101603
+  },
+  {
+    "m": 0.2,
+    "l": 3.0,
+    "lo": 9.0234375,
+    "hi": 9.02734375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.014612078079777,
+    "phi_hi_deg": 14.999855856131902
+  },
+  {
+    "m": 0.30000000000000004,
+    "l": 0.5,
+    "lo": 7.63671875,
+    "hi": 7.640625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.007411898099436,
+    "phi_hi_deg": 14.987866241973444
+  },
+  {
+    "m": 0.30000000000000004,
+    "l": 0.75,
+    "lo": 8.00390625,
+    "hi": 8.0078125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.012217335595736,
+    "phi_hi_deg": 14.99383389137264
+  },
+  {
+    "m": 0.30000000000000004,
+    "l": 1.0,
+    "lo": 8.24609375,
+    "hi": 8.25,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.000076921501183,
+    "phi_hi_deg": 14.982548041075304
+  },
+  {
+    "m": 0.30000000000000004,
+    "l": 1.25,
+    "lo": 8.4140625,
+    "hi": 8.41796875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.014341041330319,
+    "phi_hi_deg": 14.997292817753225
+  },
+  {
+    "m": 0.30000000000000004,
+    "l": 1.5,
+    "lo": 8.54296875,
+    "hi": 8.546875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.015379981605308,
+    "phi_hi_deg": 14.99879063215037
+  },
+  {
+    "m": 0.30000000000000004,
+    "l": 1.75,
+    "lo": 8.64453125,
+    "hi": 8.6484375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.013062977903864,
+    "phi_hi_deg": 14.996884550443971
+  },
+  {
+    "m": 0.30000000000000004,
+    "l": 2.0,
+    "lo": 8.7265625,
+    "hi": 8.73046875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.008476337519461,
+    "phi_hi_deg": 14.992624710751821
+  },
+  {
+    "m": 0.30000000000000004,
+    "l": 2.25,
+    "lo": 8.79296875,
+    "hi": 8.796875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.006525790324133,
+    "phi_hi_deg": 14.99099902012917
+  },
+  {
+    "m": 0.30000000000000004,
+    "l": 2.5,
+    "lo": 8.84765625,
+    "hi": 8.8515625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.00532042585733,
+    "phi_hi_deg": 14.990028011312443
+  },
+  {
+    "m": 0.30000000000000004,
+    "l": 2.75,
+    "lo": 8.890625,
+    "hi": 8.89453125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.013915087368055,
+    "phi_hi_deg": 14.99882379286077
+  },
+  {
+    "m": 0.30000000000000004,
+    "l": 3.0,
+    "lo": 8.9296875,
+    "hi": 8.93359375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.008782539906136,
+    "phi_hi_deg": 14.99389011117613
+  },
+  {
+    "m": 0.4,
+    "l": 0.5,
+    "lo": 7.55859375,
+    "hi": 7.5625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.017728696683104,
+    "phi_hi_deg": 14.997915459536411
+  },
+  {
+    "m": 0.4,
+    "l": 0.75,
+    "lo": 7.92578125,
+    "hi": 7.9296875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.004593235459604,
+    "phi_hi_deg": 14.985988591223299
+  },
+  {
+    "m": 0.4,
+    "l": 1.0,
+    "lo": 8.16015625,
+    "hi": 8.1640625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.016574057172907,
+    "phi_hi_deg": 14.998737809493884
+  },
+  {
+    "m": 0.4,
+    "l": 1.25,
+    "lo": 8.33203125,
+    "hi": 8.3359375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.004740764522776,
+    "phi_hi_deg": 14.987534914682337
+  },
+  {
+    "m": 0.4,
+    "l": 1.5,
+    "lo": 8.45703125,
+    "hi": 8.4609375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.016644378480063,
+    "phi_hi_deg": 14.999915499004297
+  },
+  {
+    "m": 0.4,
+    "l": 1.75,
+    "lo": 8.55859375,
+    "hi": 8.5625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.009472071805867,
+    "phi_hi_deg": 14.993147813033318
+  },
+  {
+    "m": 0.4,
+    "l": 2.0,
+    "lo": 8.640625,
+    "hi": 8.64453125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.001514962692545,
+    "phi_hi_deg": 14.985557528829041
+  },
+  {
+    "m": 0.4,
+    "l": 2.25,
+    "lo": 8.703125,
+    "hi": 8.70703125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.012850978519792,
+    "phi_hi_deg": 14.997136902718303
+  },
+  {
+    "m": 0.4,
+    "l": 2.5,
+    "lo": 8.7578125,
+    "hi": 8.76171875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.009602421520428,
+    "phi_hi_deg": 14.994172558733844
+  },
+  {
+    "m": 0.4,
+    "l": 2.75,
+    "lo": 8.8046875,
+    "hi": 8.80859375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.001627666457452,
+    "phi_hi_deg": 14.986436421443807
+  },
+  {
+    "m": 0.4,
+    "l": 3.0,
+    "lo": 8.83984375,
+    "hi": 8.84375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.010767855202173,
+    "phi_hi_deg": 14.995762805620933
+  },
+  {
+    "m": 0.5,
+    "l": 0.5,
+    "lo": 7.48828125,
+    "hi": 7.4921875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.0101532685215,
+    "phi_hi_deg": 14.990176817909424
+  },
+  {
+    "m": 0.5,
+    "l": 0.75,
+    "lo": 7.84765625,
+    "hi": 7.8515625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.018281725754212,
+    "phi_hi_deg": 14.99951823920334
+  },
+  {
+    "m": 0.5,
+    "l": 1.0,
+    "lo": 8.0859375,
+    "hi": 8.08984375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.0005448804236,
+    "phi_hi_deg": 14.982675575164599
+  },
+  {
+    "m": 0.5,
+    "l": 1.25,
+    "lo": 8.25,
+    "hi": 8.25390625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.015955083450175,
+    "phi_hi_deg": 14.998631503118109
+  },
+  {
+    "m": 0.5,
+    "l": 1.5,
+    "lo": 8.37890625,
+    "hi": 8.3828125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.005023813439895,
+    "phi_hi_deg": 14.988152383703467
+  },
+  {
+    "m": 0.5,
+    "l": 1.75,
+    "lo": 8.4765625,
+    "hi": 8.48046875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.01034942397688,
+    "phi_hi_deg": 14.993839141520729
+  },
+  {
+    "m": 0.5,
+    "l": 2.0,
+    "lo": 8.5546875,
+    "hi": 8.55859375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.01538002747192,
+    "phi_hi_deg": 14.99924141673115
+  },
+  {
+    "m": 0.5,
+    "l": 2.25,
+    "lo": 8.62109375,
+    "hi": 8.625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.00855982184124,
+    "phi_hi_deg": 14.992708337774033
+  },
+  {
+    "m": 0.5,
+    "l": 2.5,
+    "lo": 8.67578125,
+    "hi": 8.6796875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.003819632866549,
+    "phi_hi_deg": 14.988229016265045
+  },
+  {
+    "m": 0.5,
+    "l": 2.75,
+    "lo": 8.71875,
+    "hi": 8.72265625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.010208803486247,
+    "phi_hi_deg": 14.994853861789181
+  },
+  {
+    "m": 0.5,
+    "l": 3.0,
+    "lo": 8.7578125,
+    "hi": 8.76171875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.00352403391105,
+    "phi_hi_deg": 14.988379851705242
+  },
+  {
+    "m": 0.6000000000000001,
+    "l": 0.5,
+    "lo": 7.421875,
+    "hi": 7.42578125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.002067139219864,
+    "phi_hi_deg": 14.981899671436304
+  },
+  {
+    "m": 0.6000000000000001,
+    "l": 0.75,
+    "lo": 7.77734375,
+    "hi": 7.78125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.013644682063958,
+    "phi_hi_deg": 14.994762002298815
+  },
+  {
+    "m": 0.6000000000000001,
+    "l": 1.0,
+    "lo": 8.01171875,
+    "hi": 8.015625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.003566326936417,
+    "phi_hi_deg": 14.985508800471056
+  },
+  {
+    "m": 0.6000000000000001,
+    "l": 1.25,
+    "lo": 8.17578125,
+    "hi": 8.1796875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.011494435605915,
+    "phi_hi_deg": 14.99401109363262
+  },
+  {
+    "m": 0.6000000000000001,
+    "l": 1.5,
+    "lo": 8.30078125,
+    "hi": 8.3046875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.0122444241838,
+    "phi_hi_deg": 14.995177946415048
+  },
+  {
+    "m": 0.6000000000000001,
+    "l": 1.75,
+    "lo": 8.3984375,
+    "hi": 8.40234375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.013671356896259,
+    "phi_hi_deg": 14.997067079238766
+  },
+  {
+    "m": 0.6000000000000001,
+    "l": 2.0,
+    "lo": 8.4765625,
+    "hi": 8.48046875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.015990776474798,
+    "phi_hi_deg": 14.999691306899187
+  },
+  {
+    "m": 0.6000000000000001,
+    "l": 2.25,
+    "lo": 8.54296875,
+    "hi": 8.546875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.007242267618183,
+    "phi_hi_deg": 14.991254761144535
+  },
+  {
+    "m": 0.6000000000000001,
+    "l": 2.5,
+    "lo": 8.59765625,
+    "hi": 8.6015625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.001287014321726,
+    "phi_hi_deg": 14.985578605348564
+  },
+  {
+    "m": 0.6000000000000001,
+    "l": 2.75,
+    "lo": 8.640625,
+    "hi": 8.64453125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.007077578663477,
+    "phi_hi_deg": 14.991566667727248
+  },
+  {
+    "m": 0.6000000000000001,
+    "l": 3.0,
+    "lo": 8.6796875,
+    "hi": 8.68359375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.000031495132905,
+    "phi_hi_deg": 14.984789909776229
+  },
+  {
+    "m": 0.7,
+    "l": 0.5,
+    "lo": 7.35546875,
+    "hi": 7.359375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.012283743872718,
+    "phi_hi_deg": 14.991938017923527
+  },
+  {
+    "m": 0.7,
+    "l": 0.75,
+    "lo": 7.7109375,
+    "hi": 7.71484375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.0077885046899,
+    "phi_hi_deg": 14.988783792390167
+  },
+  {
+    "m": 0.7,
+    "l": 1.0,
+    "lo": 7.94140625,
+    "hi": 7.9453125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.00612296947321,
+    "phi_hi_deg": 14.987866581870955
+  },
+  {
+    "m": 0.7,
+    "l": 1.25,
+    "lo": 8.10546875,
+    "hi": 8.109375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.006904134151123,
+    "phi_hi_deg": 14.989215892754142
+  },
+  {
+    "m": 0.7,
+    "l": 1.5,
+    "lo": 8.23046875,
+    "hi": 8.234375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.002750931896525,
+    "phi_hi_deg": 14.98555317910657
+  },
+  {
+    "m": 0.7,
+    "l": 1.75,
+    "lo": 8.328125,
+    "hi": 8.33203125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.00096157485508,
+    "phi_hi_deg": 14.984196581386076
+  },
+  {
+    "m": 0.7,
+    "l": 2.0,
+    "lo": 8.40625,
+    "hi": 8.41015625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.001233258605833,
+    "phi_hi_deg": 14.984846374745082
+  },
+  {
+    "m": 0.7,
+    "l": 2.25,
+    "lo": 8.46875,
+    "hi": 8.47265625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.007261610221375,
+    "phi_hi_deg": 14.991174131944721
+  },
+  {
+    "m": 0.7,
+    "l": 2.5,
+    "lo": 8.5234375,
+    "hi": 8.52734375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.00047180780126,
+    "phi_hi_deg": 14.98461791923902
+  },
+  {
+    "m": 0.7,
+    "l": 2.75,
+    "lo": 8.56640625,
+    "hi": 8.5703125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.005972245628806,
+    "phi_hi_deg": 14.990360065815038
+  },
+  {
+    "m": 0.7,
+    "l": 3.0,
+    "lo": 8.6015625,
+    "hi": 8.60546875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.014320233922803,
+    "phi_hi_deg": 14.998921586796842
+  },
+  {
+    "m": 0.8,
+    "l": 0.5,
+    "lo": 7.31640625,
+    "hi": 7.3203125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.012144749314563,
+    "phi_hi_deg": 14.998309149101749
+  },
+  {
+    "m": 0.8,
+    "l": 0.75,
+    "lo": 7.64453125,
+    "hi": 7.6484375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.018180185796828,
+    "phi_hi_deg": 14.99895384246533
+  },
+  {
+    "m": 0.8,
+    "l": 1.0,
+    "lo": 7.875,
+    "hi": 7.87890625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.006247218580999,
+    "phi_hi_deg": 14.987876240781313
+  },
+  {
+    "m": 0.8,
+    "l": 1.25,
+    "lo": 8.0390625,
+    "hi": 8.04296875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.000502602448705,
+    "phi_hi_deg": 14.982719036663429
+  },
+  {
+    "m": 0.8,
+    "l": 1.5,
+    "lo": 8.16015625,
+    "hi": 8.1640625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.00924760754921,
+    "phi_hi_deg": 14.991941105291229
+  },
+  {
+    "m": 0.8,
+    "l": 1.75,
+    "lo": 8.2578125,
+    "hi": 8.26171875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.004185981634121,
+    "phi_hi_deg": 14.987333890394503
+  },
+  {
+    "m": 0.8,
+    "l": 2.0,
+    "lo": 8.3359375,
+    "hi": 8.33984375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.002438716301608,
+    "phi_hi_deg": 14.985884485435347
+  },
+  {
+    "m": 0.8,
+    "l": 2.25,
+    "lo": 8.3984375,
+    "hi": 8.40234375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.007361005039089,
+    "phi_hi_deg": 14.991134183363194
+  },
+  {
+    "m": 0.8,
+    "l": 2.5,
+    "lo": 8.453125,
+    "hi": 8.45703125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.000007177520494,
+    "phi_hi_deg": 14.984046498352935
+  },
+  {
+    "m": 0.8,
+    "l": 2.75,
+    "lo": 8.49609375,
+    "hi": 8.5,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.005491686381461,
+    "phi_hi_deg": 14.989771881199243
+  },
+  {
+    "m": 0.8,
+    "l": 3.0,
+    "lo": 8.53125,
+    "hi": 8.53515625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.014184838147399,
+    "phi_hi_deg": 14.998692704920716
+  },
+  {
+    "m": 0.9000000000000001,
+    "l": 0.5,
+    "lo": 7.34375,
+    "hi": 7.34765625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.007218537583691,
+    "phi_hi_deg": 14.992967927382978
+  },
+  {
+    "m": 0.9000000000000001,
+    "l": 0.75,
+    "lo": 7.5859375,
+    "hi": 7.58984375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.005183009380595,
+    "phi_hi_deg": 14.985805562924487
+  },
+  {
+    "m": 0.9000000000000001,
+    "l": 1.0,
+    "lo": 7.8125,
+    "hi": 7.81640625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.002862006340091,
+    "phi_hi_deg": 14.984343531233995
+  },
+  {
+    "m": 0.9000000000000001,
+    "l": 1.25,
+    "lo": 7.97265625,
+    "hi": 7.9765625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.008810681124373,
+    "phi_hi_deg": 14.990893401169538
+  },
+  {
+    "m": 0.9000000000000001,
+    "l": 1.5,
+    "lo": 8.09375,
+    "hi": 8.09765625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.013122550639023,
+    "phi_hi_deg": 14.995677550600872
+  },
+  {
+    "m": 0.9000000000000001,
+    "l": 1.75,
+    "lo": 8.19140625,
+    "hi": 8.1953125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.005399420126057,
+    "phi_hi_deg": 14.988383252112877
+  },
+  {
+    "m": 0.9000000000000001,
+    "l": 2.0,
+    "lo": 8.26953125,
+    "hi": 8.2734375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.001982696325463,
+    "phi_hi_deg": 14.985333832523361
+  },
+  {
+    "m": 0.9000000000000001,
+    "l": 2.25,
+    "lo": 8.33203125,
+    "hi": 8.3359375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.006224829525724,
+    "phi_hi_deg": 14.989891767492196
+  },
+  {
+    "m": 0.9000000000000001,
+    "l": 2.5,
+    "lo": 8.3828125,
+    "hi": 8.38671875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.01462110454874,
+    "phi_hi_deg": 14.998550679544874
+  },
+  {
+    "m": 0.9000000000000001,
+    "l": 2.75,
+    "lo": 8.4296875,
+    "hi": 8.43359375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.004417847856542,
+    "phi_hi_deg": 14.988599539703513
+  },
+  {
+    "m": 0.9000000000000001,
+    "l": 3.0,
+    "lo": 8.46484375,
+    "hi": 8.46875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.013789518815921,
+    "phi_hi_deg": 14.998196015568933
+  },
+  {
+    "m": 1.0,
+    "l": 0.5,
+    "lo": 7.36328125,
+    "hi": 7.3671875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.01401689731813,
+    "phi_hi_deg": 14.999414299685055
+  },
+  {
+    "m": 1.0,
+    "l": 0.75,
+    "lo": 7.52734375,
+    "hi": 7.53125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.005598840094656,
+    "phi_hi_deg": 14.986122596522524
+  },
+  {
+    "m": 1.0,
+    "l": 1.0,
+    "lo": 7.75,
+    "hi": 7.75390625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.013196278038759,
+    "phi_hi_deg": 14.9945094008349
+  },
+  {
+    "m": 1.0,
+    "l": 1.25,
+    "lo": 7.91015625,
+    "hi": 7.9140625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.012937386910751,
+    "phi_hi_deg": 14.994888584849026
+  },
+  {
+    "m": 1.0,
+    "l": 1.5,
+    "lo": 8.03125,
+    "hi": 8.03515625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.013352888424697,
+    "phi_hi_deg": 14.995822124451657
+  },
+  {
+    "m": 1.0,
+    "l": 1.75,
+    "lo": 8.12890625,
+    "hi": 8.1328125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.003288479524485,
+    "phi_hi_deg": 14.986178967124676
+  },
+  {
+    "m": 1.0,
+    "l": 2.0,
+    "lo": 8.203125,
+    "hi": 8.20703125,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.015442991509685,
+    "phi_hi_deg": 14.998678658222955
+  },
+  {
+    "m": 1.0,
+    "l": 2.25,
+    "lo": 8.26953125,
+    "hi": 8.2734375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.002530000063688,
+    "phi_hi_deg": 14.986122280333523
+  },
+  {
+    "m": 1.0,
+    "l": 2.5,
+    "lo": 8.3203125,
+    "hi": 8.32421875,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.01132310461181,
+    "phi_hi_deg": 14.995176222634825
+  },
+  {
+    "m": 1.0,
+    "l": 2.75,
+    "lo": 8.3671875,
+    "hi": 8.37109375,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.001682718041152,
+    "phi_hi_deg": 14.985784806439135
+  },
+  {
+    "m": 1.0,
+    "l": 3.0,
+    "lo": 8.40234375,
+    "hi": 8.40625,
+    "left_acceptable": 0,
+    "right_acceptable": 1,
+    "phi_lo_deg": 15.012038064004935,
+    "phi_hi_deg": 14.996368071298832
+  }
+]
