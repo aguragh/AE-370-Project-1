@@ -1,45 +1,157 @@
-# AE370 quadrotor suspended-payload results
+# AE370: Quadrotor with a Cable-Suspended Payload
 
-This package completes Q1--Q3 using the supplied model and from-scratch RK4. It includes runnable code, raw numerical summaries, figures, and a LaTeX results section. Python requires only NumPy and Matplotlib plus the standard library. No SciPy time integrator is used.
+This project studies how maneuver duration, cable length, and payload
+mass affect the swing of a payload carried by a planar quadrotor.
 
-## GitHub updates
+The nonlinear equations are integrated using a fourth-order
+Runge–Kutta method implemented from scratch. The study examines:
 
-- Replace `results.py` with the version here.
-- Add `linear_model.py`, `check_linear_model.py`, `results_figures.py`, and `summarize_results.py`.
-- Add `data/` and the five `q*.pdf`/`q*.png` figure pairs in `figures/`.
-- Keep your current `params.py`, `dynamics.py`, `integrator.py`, `simulate.py`, `verification.py`, and `verification_figures.py`: copies are included unchanged for a self-contained package.
-- Merge these instructions into your existing README.
-- Put `results_section.tex` and its figures with the report. Replace the old Results outline with `\input{results_section}`. Do not replace your newer Verification section with the older uploaded snippet.
+1. The shortest resolved maneuver durations satisfying the swing,
+   cable-tension, altitude, and final tracking requirements.
+2. Residual payload swing after the commanded move ends.
+3. Agreement between the nonlinear model and its full closed-loop
+   hover linearization.
 
-## Commands
+## Requirements
+
+The code uses Python, NumPy, and Matplotlib.
+
+Install the required packages from the repository directory:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Alternatively:
 
 ```bash
 python -m pip install numpy matplotlib
+```
+
+## Repository contents
+
+| File or folder | Purpose |
+|---|---|
+| `params.py` | Physical parameters, controller gains, and sweep ranges |
+| `dynamics.py` | Nonlinear equations, reference trajectory, controller, and cable tension |
+| `integrator.py` | From-scratch RK4 method and time-grid construction |
+| `simulate.py` | Runs one nonlinear maneuver and evaluates its performance |
+| `verification.py` | Jacobian, stability, conservation, and convergence checks |
+| `verification_figures.py` | Generates verification figures and numerical summaries |
+| `linear_model.py` | Full forced closed-loop hover linearization |
+| `check_linear_model.py` | Checks consistency of the linearized and nonlinear models |
+| `results.py` | Parameter sweep, boundary refinement, and sensitivity checks |
+| `results_figures.py` | Generates results figures from saved data |
+| `summarize_results.py` | Prints numerical summaries used in the report |
+| `requirements.txt` | Required Python packages |
+| `data/` | Saved sweep results, boundary checks, and linear-model comparisons |
+| `figures/` | Generated verification and results figures |
+
+## Run the verification
+
+From the repository directory, run:
+
+```bash
+python verification.py
+python verification_figures.py
 python check_linear_model.py
+```
+
+These scripts check hover equilibrium, the hover Jacobian, momentum
+and energy conservation, the small-angle swing limit, exact free-fall
+motion, RK4 convergence, and the forced linearized model.
+
+Verification figures are written to `figures/`.
+Numerical summaries are written to `verification_metrics.json`
+and `data/linear_checks.json`.
+
+Small differences in floating-point residuals between computers
+are expected.
+
+## View the results without rerunning simulations
+
+The generated data are included in `data/`.
+
+To recreate the five results figures and print the numerical summaries:
+
+```bash
+python results_figures.py
+python summarize_results.py
+```
+
+The figures are saved in `figures/` as PDF and PNG files.
+
+## Run the full results study
+
+```bash
 python results.py
 python results_figures.py
 python summarize_results.py
 ```
 
-The sweep uses four worker processes and can take several minutes or longer depending on the computer. The `if __name__ == '__main__'` guard supports Windows. For serial-like resource use, change `max_workers=4` to `max_workers=1` in results.py.
+The coarse sweep contains 5,247 nonlinear simulations:
 
-`results.py` reuses existing CSV rows to resume. To recompute after changing the model, gains, thresholds, or simulation implementation, remove the generated data CSV/JSON files first. Otherwise old cached data would be reused. Do not delete the supplied reference outputs unless you intend to regenerate them.
+- Nine payload masses from 0.2 to 1.0 kg.
+- Eleven cable lengths from 0.5 to 3.0 m.
+- Fifty-three maneuver durations from 2 to 15 s.
 
-## Output data
+The script also refines detected acceptance transitions, checks their
+sensitivity to the integration step, reproduces the parameter-extreme
+and observation-window checks, and compares nonlinear predictions
+with the linearized model.
 
-- `sweep.csv`: 5,247 runs, 9 masses x 11 lengths x 53 maneuver durations. Angles in radians, lengths in meters, times in seconds, forces in newtons. Boolean columns use 0/1. Failed runs have NaN for full-maneuver metrics; their partial trajectories do not define a completed peak.
-- `transitions.json`: each acceptance transition seen on the 0.25 s coarse grid, locally refined to a bracket narrower than 0.005 s at integration step 0.005 s. This does not prove the absence of narrow acceptable intervals between sampled durations.
-- `boundary_checks.csv`: both sides of every bracket rerun at steps 0.005 and 0.0025 s. These compare scalar metrics, not nonnested time arrays.
-- `corner_checks.csv`: the 12 parameter-extreme cases at both integration steps, reproducing the checks in Section 3.7.
-- `window_checks.csv`: four cases with 10 and 20 s observation windows, reproducing the observation-window check.
-- `linear_comparison.csv`: full forced hover-linearized model versus the nonlinear model at nominal payload mass and three cable lengths. Relative error uses the nonlinear peak. Saturation is flagged separately.
-- `linear_checks.json`: small-perturbation consistency tests of the new forced linearized model.
-- `run_log.txt`: progress and measured elapsed time from the execution used to prepare the results.
+Four worker processes are used. Execution time depends on the computer.
+The original complete data-generation run took approximately
+7.6 minutes in the execution environment.
 
-The original dynamics use unbounded ideal pitch torque, fixed maximum thrust, and no ground model. The results are model/controller-specific and are not hardware-certified safety limits. Cable slack is checked at saved time steps; the model does not simulate a slack cable or retensioning.
+### Cached data and fresh runs
 
-## Read the results
+`results.py` reuses completed rows from existing output CSV files.
+This allows an interrupted study to resume.
 
-Open `results_preview.pdf` for the compiled six-page section. `results_section.tex` is the insertion file for your report; the preview wrapper simply numbers it as Section 4. The figure and table counters in the preview match the uploaded PDF. Your full report will number them automatically.
+For a completely fresh run, or after changing the model, parameters,
+controller, or acceptance criteria, remove these generated files
+from `data/` before running `results.py`:
 
-The main new findings are nominal-payload transition brackets near 7.49, 8.48, and 8.76 s, nonmonotone residual swing for the short cable, and small linear-model peak error in the acceptable-move regime. All 198 refined bracket endpoints retained their classifications at the smaller integration step. These results and their limitations are explained in the section.
+- `sweep.csv`
+- `transitions.json`
+- `boundary_checks.csv`
+- `corner_checks.csv`
+- `window_checks.csv`
+- `linear_comparison.csv`
+
+Keep a copy of the original outputs if you want to compare results.
+Do not mix cached outputs from different model versions.
+
+## Main results files
+
+| Output | Contents |
+|---|---|
+| `sweep.csv` | Coarse parameter sweep and acceptance classifications |
+| `transitions.json` | Refined fail/pass brackets in maneuver duration |
+| `boundary_checks.csv` | Comparisons at integration steps of 0.005 and 0.0025 s |
+| `corner_checks.csv` | Parameter-extreme comparisons at two integration steps |
+| `window_checks.csv` | Comparisons using 10 and 20 s observation intervals |
+| `linear_comparison.csv` | Linear and nonlinear peak-swing predictions |
+| `linear_checks.json` | Small-perturbation checks of the linearized model |
+
+In the nonlinear sweep CSV files, angles are in radians, times in
+seconds, lengths in meters, and forces in newtons. Boolean fields
+use 0 and 1. The linear-comparison file labels angle columns in degrees.
+
+Runs stopped by the cable-tension check have `NaN` for full-maneuver
+metrics because the simulation did not complete.
+
+## Interpretation and limitations
+
+Acceptable maneuvers satisfy all specified conditions, not only the
+15-degree swing limit.
+
+Reported maneuver-time boundaries are refined transitions detected
+from a finite parameter grid. They are not globally optimal maneuver
+times or hardware-certified safety limits.
+
+The model assumes planar motion, a massless inextensible cable,
+ideal pitch torque, and no aerodynamic drag or ground contact.
+Cable tension is checked at saved time points; motion after
+detected cable slack is not simulated.
